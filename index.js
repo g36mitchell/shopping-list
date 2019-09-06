@@ -49,7 +49,6 @@ function renderShoppingList() {
     const shoppingListItemsString = generateShoppingItemsString(STORE);
 
     // insert that HTML into the DOM ready for new entries
-    $('.js-shopping-list').empty();
     $('.js-shopping-list').html(shoppingListItemsString);
     $('.js-shopping-list-entry').val(' ');
 }
